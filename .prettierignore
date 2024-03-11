@@ -2,6 +2,7 @@
 .gitignore
 .eslintrc
 CNAME
+LICENSE
 
 # Logs
 logs
