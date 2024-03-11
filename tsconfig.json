@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": ["ESNext", "DOM"],
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "outDir": "scripts/dist",
+    "resolveJsonModule": true,
+    "rootDir": "scripts/src",
+    "sourceMap": true,
+    "strict": true,
+    "target": "ESNext"
+  }
+}
