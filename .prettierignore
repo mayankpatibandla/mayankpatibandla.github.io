@@ -1,5 +1,6 @@
 .prettierignore
 .gitignore
+.eslintignore
 .eslintrc
 CNAME
 LICENSE
