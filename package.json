@@ -17,6 +17,9 @@
     "prettier": "^2.3.2",
     "typescript": "^4.3.5"
   },
+  "dependencies": {
+    "animejs": "^3.2.2"
+  },
   "homepage": "https://mayankpatibandla.com",
   "keywords": [
     "mayank",
