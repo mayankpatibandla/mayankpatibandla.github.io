@@ -4,6 +4,7 @@
 .eslintrc
 CNAME
 LICENSE
+src/
 
 # Logs
 logs

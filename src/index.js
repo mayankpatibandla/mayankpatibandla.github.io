@@ -1,4 +1,5 @@
 import anime from "animejs/lib/anime.es.js";
+console.log("Starting animation...");
 anime({
     targets: "div",
     translateX: 250,
@@ -7,4 +8,5 @@ anime({
     duration: 800,
     loop: true,
 });
+console.log("Animation started.");
 //# sourceMappingURL=index.js.map

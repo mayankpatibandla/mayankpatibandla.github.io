@@ -54,7 +54,7 @@
     "url": "https://github.com/mayankpatibandla/mayankpatibandla.github.io"
   },
   "scripts": {
-    "build": "npm run lint scripts/src/*.{js,ts} && npm run format **/* && npm run compile",
+    "build": "npm run lint scripts/*.{js,ts} && npm run format **/* && npm run compile",
     "compile": "tsc -p ./tsconfig.json",
     "format": "prettier --write --cache --config .prettierrc",
     "lint": "eslint --fix --config .eslintrc"
