@@ -54,10 +54,11 @@
     "url": "https://github.com/mayankpatibandla/mayankpatibandla.github.io"
   },
   "scripts": {
-    "build": "npm run lint scripts/*.{js,ts} && npm run format **/* && npm run compile",
+    "build": "npm run lint scripts/*.{js,ts} && npm run format **/* && npm run compile && npm run pack",
     "compile": "tsc -p ./tsconfig.json",
     "format": "prettier --write --cache --config .prettierrc",
-    "lint": "eslint --fix --config .eslintrc"
+    "lint": "eslint --fix --config .eslintrc",
+    "pack": "webpack --config webpack.config.js"
   },
   "version": "1.0.0"
 }
