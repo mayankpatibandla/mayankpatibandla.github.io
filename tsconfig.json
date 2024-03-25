@@ -11,6 +11,6 @@
     "rootDir": "scripts/src",
     "sourceMap": true,
     "strict": true,
-    "target": "ESNext"
-  }
+    "target": "ESNext",
+  },
 }
