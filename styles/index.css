@@ -20,6 +20,7 @@ body {
   height: 100vh;
   overflow: hidden;
   margin: 0px;
+  position: relative;
 }
 
 body.toggled {
@@ -45,8 +46,6 @@ body.toggled > #tiles > .tile:hover {
   height: calc(100vh - 1px);
   width: calc(100vw - 1px);
   position: relative;
-  z-index: 2;
-
   display: grid;
   grid-template-columns: repeat(var(--columns), 1fr);
   grid-template-rows: repeat(var(--rows), 1fr);
