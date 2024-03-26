@@ -25,7 +25,7 @@ const createTile = (index) => {
     return tile;
 };
 const createTiles = (quantity) => {
-    Array.from(Array(quantity)).map((tile, index) => {
+    Array.from(Array(quantity)).map((_tile, index) => {
         if (wrapper) {
             wrapper.appendChild(createTile(index));
         }

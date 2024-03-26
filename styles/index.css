@@ -30,10 +30,6 @@ body.toggled > #title {
   opacity: 0;
 }
 
-body.toggled > #icon {
-  opacity: 1;
-}
-
 body.toggled > #tiles > .tile:hover {
   opacity: 0.1 !important;
 }
