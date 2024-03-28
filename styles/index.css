@@ -20,6 +20,7 @@ body {
   height: 100vh;
   overflow: hidden;
   margin: 0px;
+  position: relative;
 }
 
 body.toggled {
@@ -46,7 +47,6 @@ body.toggled > #tiles > .tile:hover {
   width: calc(100vw - 1px);
   position: relative;
   z-index: 2;
-
   display: grid;
   grid-template-columns: repeat(var(--columns), 1fr);
   grid-template-rows: repeat(var(--rows), 1fr);
@@ -57,15 +57,18 @@ body.toggled > #tiles > .tile:hover {
   position: relative;
 }
 
-.tile:hover:before {
+.tile:hover::before {
+  background: radial-gradient(30vw circle at var(--mouse-x) var(--mouse-y), rgba(87, 141, 202, 0.4), transparent 40%);
   background-color: rgb(30, 30, 30);
+  transition: background 0.5s ease-in-out;
 }
 
-.tile:before {
+.tile::before {
   background-color: rgb(15, 15, 15);
   content: "";
   inset: 0.5px;
   position: absolute;
+  transition: background 1.5s ease-in-out;
 }
 
 #title {
