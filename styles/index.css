@@ -46,6 +46,7 @@ body.toggled > #tiles > .tile:hover {
   height: calc(100vh - 1px);
   width: calc(100vw - 1px);
   position: relative;
+  z-index: 2;
   display: grid;
   grid-template-columns: repeat(var(--columns), 1fr);
   grid-template-rows: repeat(var(--rows), 1fr);
@@ -67,7 +68,6 @@ body.toggled > #tiles > .tile:hover {
   content: "";
   inset: 0.5px;
   position: absolute;
-  z-index: 2;
   transition: background 1.5s ease-in-out;
 }
 
