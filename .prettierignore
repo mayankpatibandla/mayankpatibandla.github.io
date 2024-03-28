@@ -1,8 +1,10 @@
 .prettierignore
 .gitignore
+.eslintignore
 .eslintrc
 CNAME
 LICENSE
+src/
 
 # Logs
 logs
