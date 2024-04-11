@@ -4,3 +4,25 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
+    assignees:
+      - "dependabot[bot]"
+    commit-message:
+      prefix: "⬆️ "
+    labels:
+      - "dependencies"
+    reviewers:
+      - "mayankpatibandla"
+    target-branch: "develop"
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    assignees:
+      - "dependabot[bot]"
+    commit-message:
+      prefix: "⬆️ "
+    labels:
+      - "dependencies"
+    reviewers:
+      - "mayankpatibandla"
+    target-branch: "develop"
