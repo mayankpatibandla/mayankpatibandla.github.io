@@ -4,7 +4,10 @@
 .eslintrc
 CNAME
 LICENSE
-src/
+*.png
+*.ico
+*.svg
+*.xml
 
 # Logs
 logs
