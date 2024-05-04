@@ -61,5 +61,5 @@
     "lint": "eslint --fix --config .eslintrc src/*.ts",
     "pack": "webpack --config webpack.config.mjs"
   },
-  "version": "1.0.0"
+  "version": "1.0.1"
 }
