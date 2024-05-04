@@ -6,9 +6,9 @@
     "lib": ["ESNext", "DOM"],
     "module": "ESNext",
     "moduleResolution": "node",
-    "outDir": "src",
+    "outDir": "dist",
     "resolveJsonModule": true,
-    "rootDir": "scripts",
+    "rootDir": "src",
     "sourceMap": true,
     "strict": true,
     "target": "ESNext"
