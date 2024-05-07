@@ -88,3 +88,41 @@ body.toggled > #tiles > .tile:hover {
   font-size: 1.5em;
   line-height: 0.9em;
 }
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 3;
+  padding-top: 1em;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0 1em;
+  align-items: center;
+}
+
+.nav-link {
+  color: white;
+  font-family: "Rubik", sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.link-text {
+  margin-left: 0.5em;
+}
+
+.nav-link svg {
+  margin-left: 0.5em;
+  min-width: 2em;
+  max-width: 3em;
+  fill: white;
+}
