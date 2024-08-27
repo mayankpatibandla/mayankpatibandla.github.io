@@ -17,7 +17,7 @@
   "description": "Mayank Patibandla's Website",
   "devDependencies": {
     "@types/animejs": "^3.1.12",
-    "@typescript-eslint/eslint-plugin": "^8.2.0",
+    "@typescript-eslint/eslint-plugin": "^8.3.0",
     "@typescript-eslint/parser": "^8.2.0",
     "eslint": "^9.9.1",
     "prettier": "^3.3.3",
