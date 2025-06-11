@@ -1,10 +1,14 @@
+static/
 .prettierignore
 .gitignore
 .eslintignore
 .eslintrc
 CNAME
 LICENSE
-src/
+*.png
+*.ico
+*.svg
+*.xml
 
 # Logs
 logs
